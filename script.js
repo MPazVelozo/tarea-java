@@ -19,12 +19,12 @@ if (isNaN(num1) || isNaN(num2) || isNaN(num3)) {
     let mid = (num1 + num2 + num3) - max - min;
 
     if (num1 === num2 && num2 === num3) {
-        let igualMensaje = "Los números son iguales: " + num1 + ", " + num2 + ", " + num3;
+        let igualMensaje = "Los números son iguales:  " + num1 + ", " + num2 + ", " + num3;
         agregarResultado("resultadoMayorMenor", igualMensaje);
         console.log(igualMensaje);
     } else {
         
-        let mayorMenorMensaje = "Orden de mayor a menor: " + max + ", " + mid + ", " + min;
+        let mayorMenorMensaje = "Orden de mayor a menor:  " + max + ", " + mid + ", " + min;
         agregarResultado("resultadoMayorMenor", mayorMenorMensaje);
         console.log(mayorMenorMensaje);
 
